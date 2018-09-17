@@ -41,3 +41,9 @@ Examples:
         Save the palette as palette.png in the current directory. You can
         specify a full path to the output file if desired.
 ```
+
+Sample Output
+-------------
+`ewgpal` produces the following palette image for the default biomes of EpicWorldGenerator (version 8.0.0-pre5, at the time of writing):
+
+![ewgpal.png](https://github.com/NerdNu/ewgpal/blob/master/images/default-ewgpal.png)
