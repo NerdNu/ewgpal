@@ -46,4 +46,9 @@ Sample Output
 -------------
 `ewgpal` produces the following palette image for the default biomes of EpicWorldGenerator (version 8.0.0-pre5, at the time of writing):
 
-![ewgpal.png](https://github.com/NerdNu/ewgpal/blob/master/images/default-ewgpal.png)
+![default-ewgpal.png](https://github.com/NerdNu/ewgpal/blob/master/images/default-ewgpal.png)
+
+An alternative EWG configuration where each biome has only one distinct colour would be:
+
+![ewgpal.png](https://github.com/NerdNu/ewgpal/blob/master/images/ewgpal.png)
+
