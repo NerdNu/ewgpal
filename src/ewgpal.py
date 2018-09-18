@@ -169,7 +169,7 @@ Examples:
     maxPatches = max(map(lambda patches: len(patches), biomePatches.values()))
 
     # Wrap around long rows of patches, and compute a map of biome type to rows.
-    wrapColumns =  3 * int(ceil(pow(maxPatches, 1/3.0)))
+    wrapColumns = int(ceil(3 * pow(maxPatches, 1/3.0)))
     biomeTypeRows = {}
     rows = 0
     for biomeType, patches in biomePatches.iteritems():
