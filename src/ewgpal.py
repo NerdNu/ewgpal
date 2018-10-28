@@ -202,7 +202,6 @@ Examples:
     imageHeight = 1 + patchHeight * rows
     img = Image.new("RGB", (imageWidth, imageHeight), '#404040')
     draw = ImageDraw.Draw(img)
-    draw = ImageDraw.Draw(img)
     
     row = 0
     for biomeType in sorted(biomePatches.keys()):
